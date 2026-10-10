@@ -3,6 +3,7 @@ public class Day39 {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
 
+        // membuat kalkulator menggunakan if
         double angka1, angka2, hasil;
         char operator;
         
@@ -32,7 +33,7 @@ public class Day39 {
                 System.out.println("tdk bisa di bagi");
             }
         }else{
-            System.out.println("operator tdk");
+            System.out.println("operator tdk berfungsi");
         }
 
     }
