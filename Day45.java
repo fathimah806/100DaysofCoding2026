@@ -30,7 +30,5 @@ public class Day45 {
             default:
                 System.out.println("Pilihan tidak tersedia");
         }
-
-        input.close();
     }
 }
