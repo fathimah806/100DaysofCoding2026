@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class 45 {
+public class Day45 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
