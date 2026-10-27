@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+
+public class Day56 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Masukkan angka N: ");
+        int n = in.nextInt();
+
+        // Mencetak angka 1 sampai N
+        for (int i = 1; i <= n; i++) {
+            System.out.print(i + " ");
+        }
+
+        System.out.println();
+
+        // Mencetak angka N sampai 1
+        for (int i = n; i >= 1; i--) {
+            System.out.print(i + " ");
+        }
+
+        in.close();
+    }
+}
