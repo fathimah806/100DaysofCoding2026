@@ -5,9 +5,9 @@ public class Day63 {
         Scanner in = new Scanner(System.in);
 
         System.out.print("a\t:");
-        int m = in.nextInt();
+        int a = in.nextInt();
         System.out.print("b\t:");
-        int n = in.nextInt();
+        int b = in.nextInt();
         int hasil = 1;
 
         for (int i = 1; i <= n; i++) {
