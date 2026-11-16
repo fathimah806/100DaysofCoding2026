@@ -4,7 +4,7 @@ public class Day76 {
         String n = "  Fatima Sahra  ";
         String b = n.trim();
         String c = b.substring(0, 6);
-        String d= b.replace("Java", "Python");
+        String d= b.replace("Sahra", "Gopi");
 
         System.out.println("Nama asli       : " + n );
         System.out.println("Setelah trim    : " + b);
