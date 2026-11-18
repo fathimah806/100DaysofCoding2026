@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DayString {
+public class Day78 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -35,7 +35,7 @@ public class DayString {
 
             } else {
                 System.out.println("Username atau Password salah!");
-                System.out.println("Silakan coba lagi.\n");
+                System.out.println("Silakan coba lagi");
             }
         }
     }
